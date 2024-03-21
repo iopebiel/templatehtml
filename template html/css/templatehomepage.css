@@ -1,0 +1,52 @@
+.linha{
+    display: flex;  
+}
+
+.logo {
+    flex-grow: 2;
+    /*width: 20vw;*/
+    height: 10vh;
+    background-color: green;
+    color:white;
+}
+.menu {
+    flex-grow: 8;
+    /*width: 80vw;*/
+    height: 10vh;
+    background-color: black;
+    color:white;
+}
+.principal {
+    flex-grow: 1;
+    /*width: 100vw;*/
+    height: 80vh;
+    background-color: yellow;
+}
+
+.mapa {
+    flex-grow: 8;
+    /*width: 80vw;*/
+    height: 10vh;
+    background-color: darkgoldenrod;
+}
+
+.direito {
+    flex-grow: 1;
+    /*width: 20vw;*/
+    height: 100%;
+    background-color: blue;
+    color:white;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 10vh;
+}
+
+.rodape{
+    flex-grow: 1;
+    width: 100%;
+    background-color: red;
+    color:white;
+}
